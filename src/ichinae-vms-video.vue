@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-07-08 09:48:06
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-12-15 14:58:00
+ * @LastEditTime: 2020-12-15 17:54:38
 -->
 <template>
   <div class="videotemplate">
@@ -143,7 +143,7 @@
 
 <script>
 import './poster.js'
-import flvjs from './flv'
+import flvjs from 'flv.js'
 import timeline from './timeline.vue'
 import { vmsService } from './api/vms'
 import { clearToken, setToken } from './utils/vmsToken'
