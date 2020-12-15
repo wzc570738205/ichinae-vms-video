@@ -2,7 +2,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-07-08 09:48:06
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-12-15 17:54:38
+ * @LastEditTime: 2020-12-15 18:36:13
 -->
 <template>
   <div class="videotemplate">
@@ -294,7 +294,8 @@ export default {
         //  ctx.fillStyle = 'rgb(255, 235, 59, .5)'
         // ctx.fillRect(50, 20, 40, 30)
         ctx.fillStyle = 'rgb(255, 255, 255, .6)'
-        ctx.font = 'bold 45px 微软雅黑'
+        let fontSize = this.videoOption.fontSize || 45
+        ctx.font = `bold ${fontSize}px 微软雅黑`
         ctx.textAlign = 'left'
         ctx.fillText(text, canvas.width * 0.15, canvas.height * 0.10)
         ctx.fillText(text, canvas.width * 0.45, canvas.height * 0.40)

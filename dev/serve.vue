@@ -3,7 +3,7 @@
  * @Author: wangzhichiao<https://github.com/wzc570738205>
  * @Date: 2020-08-13 13:10:16
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-12-15 14:14:46
+ * @LastEditTime: 2020-12-15 18:37:08
 -->
 <script>
 import IchinaeVmsVideo from '@/ichinae-vms-video'
@@ -17,6 +17,7 @@ export default Vue.extend({
     return {
       videoOption: {
         size: 4, // 分频数  1 4
+        fontSize: 100,
         text: 'admin' // 水印名字
       },
       vmsOption: {

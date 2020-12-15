@@ -1,10 +1,9 @@
 <!--
  * @Author: wangzhichiao<https://github.com/wzc570738205>
- * @Date: 2020-08-13 14:14:31
+ * @Date: 2020-12-15 17:39:51
  * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-08-13 15:42:32
+ * @LastEditTime: 2020-12-15 18:38:30
 -->
-
 # ichinae-vms-video
 
 ## install
@@ -43,6 +42,7 @@ data() {
         videoOption: {
             size: 4, // 分频数  1 4
             text: 'admin', // 水印名字  水印会监听localStorage userName 字段进行改变
+            fontSize: 100, // 水印文字大小<Number>
             disabledDb: true // 禁用双击
         },
         vmsOption: {
@@ -65,6 +65,7 @@ data() {
 | ---------- | ---------------- | ------- | ------ | -------- |
 | size       | 分屏数           | 1/4/6/8/9    |       | true    |
 | text       | 水印             | string  | ''     | false    |
+| fontSize   | 水印文字大小     | Number  | 45     | false    |
 | disabledDb | 是否禁用双击事件 | Boolean | false  | false    |
 
 #### vmsOption

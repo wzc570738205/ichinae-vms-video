@@ -1,6 +1,6 @@
 {
   "name": "ichinae-vms-video",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "",
   "main": "dist/ichinae-vms-video.ssr.js",
   "browser": "dist/ichinae-vms-video.esm.js",
